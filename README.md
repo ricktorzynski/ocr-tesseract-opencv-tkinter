@@ -1,4 +1,4 @@
-# OCR Tesseract Tkinter
+# OCR Tesseract OpenCV Tkinter
 Allows upload of an image for OCR using Tesseract and deployed using Tkinter.  This uses Tkinter, a Python GUI framework based on Tcl/Tkl.   OpenCV is used to reduce noise in the image for better processing by pytesseract. Below are 3 images of a job posting taken on a Pixel 2XL phone, and reduced in size using Gimp by adjusting quality. 
 
 ## Getting Started
@@ -10,7 +10,21 @@ For Windows 10, Tesseract must be installed - you can find installer here:
 
 
 ### Installing and Running
+'''
+For ImageTk
+$ sudo apt-get update
+Install OpenCV
+$ sudo apt-get install python3-pil.imagetk
+$ pip install opencv-python 
+$ pip install opencv-contrib-python
+Install Tesseract/Pytesseract
+$ sudo apt install tesseract-ocr
+$ sudo apt install libtesseract-dev
+$ pip install pytesseract
+'''
 
+Also, see requirements.txt file produced using 
+$ pip freeze > requirements.txt
 
 You can use these images to test it - these are photos of a job posting:
 
@@ -35,8 +49,8 @@ Here are some helpful resources on the web that I used for this project.
 
 * [Deep Learning based Text Recognition (OCR) using Tesseract and OpenCV](https://www.learnopencv.com/deep-learning-based-text-recognition-ocr-using-tesseract-and-opencv/)
 * [Using Tesseract OCR with Python](https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/)
-*
-* 
+
+
 ## Acknowledgments
 
 
