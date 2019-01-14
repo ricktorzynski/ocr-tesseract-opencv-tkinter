@@ -10,7 +10,7 @@ For Windows 10, Tesseract must be installed - you can find installer here:
 
 
 ### Installing and Running
-'''
+```
 For ImageTk
 $ sudo apt-get update
 Install OpenCV
@@ -21,7 +21,7 @@ Install Tesseract/Pytesseract
 $ sudo apt install tesseract-ocr
 $ sudo apt install libtesseract-dev
 $ pip install pytesseract
-'''
+```
 
 Also, see requirements.txt file produced using 
 $ pip freeze > requirements.txt
