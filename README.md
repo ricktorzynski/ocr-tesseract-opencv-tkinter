@@ -32,8 +32,6 @@ You can use these images to test it - these are photos of a job posting:
 * [Job Posting 2](https://www.torzyn.com/ocr/senior_python_developer_nlplogix2_sm.jpg)
 * [Job Posting 3](https://www.torzyn.com/ocr/senior_python_developer_nlplogix3_sm.jpg)
 
-## Deployed to AWS Elastic Beanstalk
-
 
 ## Built With
 ```
