@@ -1,8 +1,6 @@
 # OCR Tesseract OpenCV Tkinter
 Allows upload of an image for OCR using Tesseract and deployed using Tkinter.  This uses Tkinter, a Python GUI framework based on Tcl/Tkl.   OpenCV is used to reduce noise in the image for better processing by pytesseract. Below are 3 images of a job posting taken on a Pixel 2XL phone, and reduced in size using Gimp by adjusting quality. 
 
-![Application Screenshot](https://github.com/ricktorzynski/ocr-tesseract-opencv-tkinter/blob/master/assets/ocr-tesseract-tkinter4.PNG)
-
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
